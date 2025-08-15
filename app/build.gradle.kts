@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    kotlin("plugin.serialization") version "2.0.21"
 }
 
 android {
@@ -59,4 +60,5 @@ dependencies {
     implementation(libs.coil.compose)
     implementation("com.github.bumptech.glide:compose:1.0.0-beta01")
     implementation("com.github.bumptech.glide:avif-integration:4.14.2")
+    implementation("androidx.navigation:navigation-compose:2.9.3")
 }

@@ -38,7 +38,7 @@ import com.kunal.nft.presentation.ui.theme.InterFontFamily
 
 @OptIn(ExperimentalGlideComposeApi::class)
 @Composable
-fun SplashScreen(
+fun OnBoardingScreen(
     modifier: Modifier
 ) {
     Column(
@@ -134,6 +134,6 @@ fun SplashScreen(
 @Composable
 fun SplashScreenPreview() {
     Scaffold {
-        SplashScreen(modifier = Modifier.padding(it))
+        OnBoardingScreen(modifier = Modifier.padding(it))
     }
 }
